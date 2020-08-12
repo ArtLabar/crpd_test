@@ -1,0 +1,32 @@
+  #tabs{border: none;}
+  
+  .red, .green, .blue{
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  #swatch {
+    width: 250px;
+    min-height: 125px;
+    margin-left: 360px;
+  }
+  
+  .red .ui-slider-range { background: #ef2929; }
+  .red .ui-slider-handle { border-color: #ef2929; }
+  .green .ui-slider-range { background: #8ae234; }
+  .green .ui-slider-handle { border-color: #8ae234; }
+  .blue .ui-slider-range { background: #729fcf; }
+  .blue .ui-slider-handle { border-color: #729fcf; }
+  
+  .ui-tabs .ui-tabs-nav{
+	padding: 5px;
+	background: none;
+	border: none;
+  }
+  
+  .ui-tabs .ui-tabs-nav li{
+	border-bottom-width: 1px;
+	border-radius: 3px;
+  }
